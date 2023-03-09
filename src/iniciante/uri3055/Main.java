@@ -1,4 +1,4 @@
-package iniciante.uri2510;
+package iniciante.uri3055;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -7,16 +7,13 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);
+
+		int a = input.nextInt();
+		int m = input.nextInt();
 		
-		int repete = input.nextInt();
+		int b = (m * 2)-a;
 		
-		for (int i = 0; i < repete; i++) {
-			String bandido = input.next();
-			System.out.println("Y");
-		}
-		
+		System.out.println(b);
 		input.close();
 	}
-
 }
-
